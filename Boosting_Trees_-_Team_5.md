@@ -51,7 +51,6 @@ boston.test = Boston[-train,"medv"]
 
 The most common package in R for boosting decision trees is the **"gbm"** package. The functions we will be using from the "gbm" package are simply gbm().
 
-Lets apply gbm to the Boston data set:
 
 ``` r
 boost.boston = gbm(medv ~.,                   #formula
@@ -64,7 +63,6 @@ boost.boston = gbm(medv ~.,                   #formula
 # Recall shrinkage can be 0.1 to 0.001.  The smaller the shrinkage parameter (lambda) the greater the number of trees necessary
 ```
 
-Let's analyze the boosting effects by using summary().
 
 ``` r
 summary(boost.boston)
