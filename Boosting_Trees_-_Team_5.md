@@ -70,7 +70,7 @@ Let's analyze the boosting effects by using summary().
 summary(boost.boston)
 ```
 
-![](Boosting_Trees_-_Team_5_files/figure-markdown_github/Relative%20Influence-1.png)
+![](Figures/Relative Influence-1.png)
 
     ##             var     rel.inf
     ## lstat     lstat 45.96792013
@@ -110,7 +110,7 @@ plot(boost.boston,i="rm", col= 'red', lwd = 2, main = "Average Number of Rooms")
 plot(boost.boston,i="lstat", col = 'blue', lwd = 2, main = "% Lower Status of Population")
 ```
 
-![](Boosting_Trees_-_Team_5_files/figure-markdown_github/Partial%20Dependence%20Plot%20of%20Boston-1.png)
+![](Figures/GBM Boston-1.png)
 
 ### 1.4 Predict using the Boosted Model
 
@@ -237,7 +237,7 @@ Use standard R plot to observe the decreasing training error rate. A series of 5
 plot(adafit) 
 ```
 
-![](Boosting_Trees_-_Team_5_files/figure-markdown_github/ADA%20curve-1.png)
+![](Figures/ADA curve-1.png)
 
 Determine the variables of importance.
 
@@ -245,7 +245,7 @@ Determine the variables of importance.
 varplot(adafit)
 ```
 
-![](Boosting_Trees_-_Team_5_files/figure-markdown_github/ADA%20varplot-1.png)
+![](Figures/ADA varplot-1.png)
 
 ### 2.3 Predict
 
