@@ -56,7 +56,7 @@ Lets apply gbm to the Boston data set:
 ``` r
 boost.boston = gbm(medv ~.,                   #formula
                    data = Boston[train,],     #training dataset
-                   distribution = 'gaussian', #'gaussian' for regression models, 'bernouli' for classification
+                   distribution = 'gaussian', #'gaussian' for regression models, 'bernoulli' for classification
                    n.trees = 5000,            #number of trees
                    interaction.depth = 4,     #depth of each tree or number of leaves
                    shrinkage = 0.001          #0.001 default value
