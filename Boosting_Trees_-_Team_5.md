@@ -110,7 +110,7 @@ plot(boost.boston,i="rm", col= 'red', lwd = 2, main = "Average Number of Rooms")
 plot(boost.boston,i="lstat", col = 'blue', lwd = 2, main = "% Lower Status of Population")
 ```
 
-![alt text for screen readers](/Class-14--Boosting/Figures/Partial Dependence Plot of Boston-1.png "Partial Dependence Plot of Boston")
+<img src="Class-14--Boosting/Figures/Partial Dependence Plot of Boston-1.png"/>
 
 ### 1.4 Predict using the Boosted Model
 
