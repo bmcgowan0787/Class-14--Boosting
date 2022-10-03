@@ -70,7 +70,7 @@ Let's analyze the boosting effects by using summary().
 summary(boost.boston)
 ```
 
-<img src="Figures/Relative Influence-1.png"/>
+
 
     ##             var     rel.inf
     ## lstat     lstat 45.96792013
@@ -94,6 +94,8 @@ The summary of the boosted data set shows us a **relative influence** plot of th
 -   **What does relative influence mean?**
 
 What relative influence attempts to convey is the decrease in MSE for each unit change in the predictor. For example, in the graph above, we see that the **lstat** variable has the largest impact on MSE. Stating that for each unit change (decrease in this example) in **lstat**, the MSE decreases by 45.96 for predicting the medv (medivan value) of a home.
+
+<img src="Figures/Relative Influence-1.png"/>
 
 ### 1.3 Partial Dependence Plot
 
