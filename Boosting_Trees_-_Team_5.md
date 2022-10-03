@@ -110,7 +110,7 @@ plot(boost.boston,i="rm", col= 'red', lwd = 2, main = "Average Number of Rooms")
 plot(boost.boston,i="lstat", col = 'blue', lwd = 2, main = "% Lower Status of Population")
 ```
 
-<img src="Class-14--Boosting/Figures/Partial Dependence Plot of Boston-1.png"/>
+<img src="Figures/Partial Dependence Plot of Boston-1.png"/>
 
 ### 1.4 Predict using the Boosted Model
 
@@ -237,7 +237,7 @@ Use standard R plot to observe the decreasing training error rate. A series of 5
 plot(adafit) 
 ```
 
-![](Figures/ADA curve-1.png)
+<img src="Figures/ADA curve-1.png"/>
 
 Determine the variables of importance.
 
@@ -245,7 +245,7 @@ Determine the variables of importance.
 varplot(adafit)
 ```
 
-![](Figures/ADA varplot-1.png)
+<img src="Figures/ADA varplot-1.png"/>
 
 ### 2.3 Predict
 
