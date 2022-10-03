@@ -70,7 +70,7 @@ Let's analyze the boosting effects by using summary().
 summary(boost.boston)
 ```
 
-(Figures/Relative Influence-1.png)
+![](Figures/Relative Influence-1.png)
 
     ##             var     rel.inf
     ## lstat     lstat 45.96792013
@@ -110,7 +110,7 @@ plot(boost.boston,i="rm", col= 'red', lwd = 2, main = "Average Number of Rooms")
 plot(boost.boston,i="lstat", col = 'blue', lwd = 2, main = "% Lower Status of Population")
 ```
 
-![](Figures/Partial Dependence Plot of Boston-1.png)
+![alt text for screen readers](Figures/Partial Dependence Plot of Boston-1.png "Partial Dependence Plot of Boston")
 
 ### 1.4 Predict using the Boosted Model
 
