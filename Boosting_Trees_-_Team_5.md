@@ -70,7 +70,7 @@ Let's analyze the boosting effects by using summary().
 summary(boost.boston)
 ```
 
-![](Figures/Relative Influence-1.png)
+(Figures/Relative Influence-1.png)
 
     ##             var     rel.inf
     ## lstat     lstat 45.96792013
